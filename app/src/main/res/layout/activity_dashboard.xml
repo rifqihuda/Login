@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/skyblue"
+    tools:context=".Dashboard">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_profil"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/biru"/>
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@id/imgProfil"
+        android:text="Loren Ipsum"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:id="@+id/vwGaris"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@color/biru"
+        android:layout_below="@+id/imgProfil"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgBocil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/vwGaris"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_bocil"
+        app:strokeColor="@color/biru"
+        app:strokeWidth="8dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgSedih"
+        android:layout_width="150dp"
+        android:layout_below="@+id/vwGaris"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_sedih"
+        app:strokeColor="@color/biru"
+        app:strokeWidth="8dp"
+        android:layout_alignParentEnd="true"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgSenyum"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imgBocil"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_senyum"
+        app:strokeColor="@color/biru"
+        app:strokeWidth="8dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgTawa"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imgBocil"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_tawa"
+        app:strokeColor="@color/biru"
+        app:strokeWidth="8dp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/txNimNama"
+        android:layout_below="@id/imgSenyum"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="5190311114_Rifqi Huda Kurniadi"
+        tools:ignore="HardcodedText,SpUsage" />
+
+</RelativeLayout>
