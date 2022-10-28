@@ -48,6 +48,17 @@
         android:src="@drawable/ic_bocil"
         app:strokeColor="@color/biru"
         app:strokeWidth="8dp" />
+    <TextView
+        android:id="@+id/tvDaftarBrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBocil"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:text="Daftar Barang"
+        android:textColor="@color/biru"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imgSedih"
@@ -61,6 +72,19 @@
         android:src="@drawable/ic_sedih"
         app:strokeColor="@color/biru"
         app:strokeWidth="8dp" />
+    <TextView
+        android:id="@+id/tvDaftarBrg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgSedih"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="5dp"
+        android:text="Daftar Barang"
+        android:textColor="@color/biru"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imgSenyum"
@@ -73,6 +97,17 @@
         android:src="@drawable/ic_senyum"
         app:strokeColor="@color/biru"
         app:strokeWidth="8dp" />
+    <TextView
+        android:id="@+id/tvDaftarBrg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgSenyum"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:text="Daftar Barang"
+        android:textColor="@color/biru"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imgTawa"
@@ -86,6 +121,19 @@
         app:strokeColor="@color/biru"
         app:strokeWidth="8dp"
         android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/tvDaftarBrg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgTawa"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="5dp"
+        android:text="Daftar Barang"
+        android:textColor="@color/biru"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/txNimNama"
