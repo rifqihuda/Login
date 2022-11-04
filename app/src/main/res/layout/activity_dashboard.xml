@@ -31,11 +31,11 @@
         android:id="@+id/vwGaris"
         android:layout_width="fill_parent"
         android:layout_height="3dp"
-        android:background="@color/biru"
         android:layout_below="@+id/imgProfil"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"/>
+        android:layout_marginEnd="20dp"
+        android:background="@color/biru" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imgBocil"

@@ -2,6 +2,7 @@ package com.example.login.Adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,6 +39,10 @@ public class Adapter_Barang extends RecyclerView.Adapter<Adapter_Barang.BarangVi
         m_barang mb = listBarang.get(position);
         holder.tvNama.setText(mb.getNama_barang());
         holder.imgBarang.setImageResource(mb.getImg());
+
+        holder.imgBarang.setOnClickListener(view -> {
+
+        });
 //        holder.tvNama.setText(mb.nama_barang);
     }
 
